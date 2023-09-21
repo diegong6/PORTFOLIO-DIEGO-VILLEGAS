@@ -53,7 +53,7 @@ btn_up.addEventListener('click', () => {
     }
 
     const add_btn_up = () => {
-      if (window.scrollY < 300) {
+      if (window.scrollY < 400) {
         btn_up.classList.remove("btn_up-on")
         btn_up.style.display = 'none'
       } else {

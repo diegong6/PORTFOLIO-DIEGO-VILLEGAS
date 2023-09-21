@@ -7,6 +7,31 @@
   font-family: "Poppins", sans-serif;
 }
 
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: linear-gradient(to right, #868f96 0%, #596164 100%);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.19);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.411);
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.411);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ffffff #000000;
+}
+
 :root {
   scroll-behavior: smooth;
 }
@@ -115,6 +140,21 @@ header {
   box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.19);
   -webkit-box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.19);
+}
+
+.copy2 {
+  color: #000000;
+  text-decoration: none;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  border: 2px solid rgba(128, 128, 128, 0.5);
+}
+
+.copy2:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+  color: #000000;
+  border-radius: 25px;
 }
 
 /*NUESTRO SERVICIO*/
@@ -276,7 +316,10 @@ header {
 
 .n-expert {
   display: inline-block;
-  color: #000000;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #ffffff;
   margin-top: 20px;
   width: 100%;
   font-weight: 700;
@@ -472,7 +515,7 @@ footer {
   height: 100vh;
   background-color: #ffffff;
   z-index: 200;
-  color: var(--clr-white);
+  color: #ffffff;
   text-align: center;
   line-height: 90vh;
   font-family: "Bank Gothic", sans-serif;
@@ -531,17 +574,18 @@ footer {
   width: 50px;
   height: 35px;
   border-radius: 15px;
-  border: 1px solid var(--clr-gray-dark);
+  border: 1px solid rgba(0, 0, 0, 0.5);
   font-size: 20px;
   text-decoration: none;
   padding-bottom: 3px;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 .boton_up:hover {
-  background-color: #ffffff;
-  color: #000000;
-  border: 1px solid #ffffff;
-  box-shadow: 0px 0px 5px 5px #ffffff;
+  background-color: rgb(128, 128, 128);
+  color: #ffffff;
+  border: 1px solid rgb(128, 128, 128);
+  box-shadow: 0px 0px 3px 3px rgb(128, 128, 128);
   font-size: 20px;
 }
