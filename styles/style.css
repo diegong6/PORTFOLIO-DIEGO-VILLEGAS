@@ -143,18 +143,20 @@ header {
 }
 
 .copy2 {
+  margin-top: 50px;
   color: #000000;
   text-decoration: none;
   padding: 5px;
   font-weight: bold;
-  border-radius: 25px;
-  border: 2px solid rgba(128, 128, 128, 0.5);
+  border-bottom-left-radius: 15px;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  box-shadow: 2px 2px 5px #000000;
 }
 
 .copy2:hover {
   background-color: rgba(128, 128, 128, 0.5);
   color: #000000;
-  border-radius: 25px;
+  /* border-radius: 25px; */
 }
 
 /*NUESTRO SERVICIO*/
@@ -236,14 +238,14 @@ header {
   display: block;
   margin-bottom: 15px;
   box-shadow: rgba(0, 0, 0, 0.5);
-  border: 3px solid transparent;
-  border-radius: 38%;
+  border: 2px solid transparent;
+  border-radius: 45px 45px 45px 45px;
   padding: 25px;
   cursor: pointer;
 }
 
 .img-galeria2:hover {
-  border: 3px solid rgba(128, 128, 128, 0.5);
+  border: 2px solid rgba(128, 128, 128, 0.5);
   background-color: rgba(128, 128, 128, 0.5);
 }
 
@@ -390,6 +392,15 @@ footer {
   height: 2px;
   background: #ffffff;
   margin-bottom: 60px;
+}
+
+.contact-p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+  color: #ffffff;
 }
 
 /*MEDIAS QUERYS*/
@@ -579,7 +590,7 @@ footer {
   text-decoration: none;
   padding-bottom: 3px;
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 .boton_up:hover {
