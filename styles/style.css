@@ -111,15 +111,15 @@ header {
 .menu-navegacion a {
   color: #ffffff;
   text-decoration: none;
-  padding: 20px;
-  border-radius: 15px 50px;
+  padding: 15px;
+  border-radius: 25px 30px 0px 25px;
   transition: 0.2s;
 }
 
 .menu-navegacion a:hover {
   background-color: #0000005d;
-  border-radius: 15px 50px;
-  padding: 20px;
+  border-radius: 25px 30px 0px 25px;
+  padding: 15px;
 }
 
 .titulo {
@@ -127,9 +127,7 @@ header {
   margin-bottom: 15px;
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.19);
-  -webkit-box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.19);
-  -moz-box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.19);
+  background-color: rgba(128, 128, 128, 0.301);
 }
 
 .copy {
@@ -137,9 +135,7 @@ header {
   font-size: 25px;
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.19);
-  -webkit-box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.19);
-  -moz-box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.19);
+  background-color: rgba(128, 128, 128, 0.301);
 }
 
 .copy2 {
